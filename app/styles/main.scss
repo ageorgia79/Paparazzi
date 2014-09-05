@@ -99,6 +99,10 @@ body {
   margin-left: 10px;
 }
 
+.usersname {
+  visibility: hidden;
+}
+
 
 /* Responsive: Portrait tablets and up */
 @media screen and (max-width: 1450px) {
@@ -168,6 +172,10 @@ body {
 }
 
 .logmein {
+  visibility: hidden;
+}
+
+.usersname {
   visibility: hidden;
 }
 
@@ -258,6 +266,20 @@ body {
   margin-left: 5px;
 }
 
+.usersname {
+  visibility: visible;
+  //border: 1px solid blue;
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  bottom: 120px;
+  h3 {
+    color: white;
+    font-size: 40px;
+  }
+}
+
 }
 
 @media screen and (max-width: 470px) {
@@ -341,6 +363,20 @@ body {
   .navlogin {
     visibility: hidden;
   }
+
+  .usersname {
+  visibility: visible;
+  //border: 1px solid blue;
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  bottom: 260px;
+  h3 {
+    color: white;
+    font-size: 30px;
+  }
+}
 
 
 }
