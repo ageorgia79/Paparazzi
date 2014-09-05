@@ -104,6 +104,8 @@ body {
 }
 
 
+
+
 /* Responsive: Portrait tablets and up */
 @media screen and (max-width: 1450px) {
 
@@ -277,8 +279,23 @@ body {
   h3 {
     color: white;
     font-size: 40px;
+    font-family: 'Special Elite', cursive;
+  }
+  h4 {
+    color: white;
+    font-family: 'Special Elite', cursive;
+    font-size: 20px;
+    cursor: pointer;
+    position: relative;
+    top: 20px;
+  }
+  img {
+    width: 250px;
+    height: 250px;
   }
 }
+
+
 
 }
 
@@ -375,8 +392,25 @@ body {
   h3 {
     color: white;
     font-size: 30px;
+    font-family: 'Special Elite', cursive;
+  }
+  h4 {
+    color: white;
+    font-family: 'Special Elite', cursive;
+    cursor: pointer;
+    position: relative;
+    top: 10px;
+  }
+  
+  img {
+    width: 150px;
+    height: 150px;
   }
 }
+
+
+
+
 
 
 }
