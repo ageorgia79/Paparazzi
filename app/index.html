@@ -32,14 +32,36 @@
 
     <script type="text/template" class="main-template">
       <div class="container">
-        <!--<div class="topmenu"></div>-->
-        <div class="menubar"></div>
-        <div id="slider">
-          <img src="../images/pap1.png" class="is-showing"/>
-          <img src="../images/display.jpg">
-        </div>
+        <div class="menubar">
+          <div class="logo">
+            <a href="#">
+              <img alt="paplogo" src="/images/logoimg.png">
+            </a>
+          </div>
+          <ul class="navigationlinks">
+            <li class="contact">Contact</li>
+            <li class="shop">Shop</li>
+            <li class="about">About</li>
+            <li class="home">Home</li>
+          </ul>
+          <ul class="nav nav-pills">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+              Menu <span class="glyphicon glyphicon-th-list"></span>
+              </a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a class="homebutton" href="#">Home</a></li>
+                <li><a class="aboutbutton" href="#">About</a></li>
+                <li><a class="shopbutton" href="#">Shop</a></li>
+                <li><a class="contactbutton" href="#">Contact</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!--end menubar-->
       </div><!--end container-->
     </script>
+        
+        
 
 
 
