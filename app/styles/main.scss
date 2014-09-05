@@ -68,9 +68,9 @@ body {
   //border: 1px solid blue;
   background: linear-gradient(to bottom, #FF6699 0%, #FF99CC 100%);
   img {
-    margin-left: 15%;
-    margin-right: 15%;
-    width: 70%;
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 60%;
     height: 500px;
     position: relative;
     bottom: 48px;
@@ -81,8 +81,23 @@ body {
   visibility: hidden;
 }
 
+.logmein {
+  visibility: hidden;
+}
 
+.navlogin {
+  list-style-type: none;
+  display: inline-block;
+  float: right;
+  position: relative;
+  top: 12px;
+  text-decoration: none;
+  margin-right: 20px;
+}
 
+.linktitle2 {
+  margin-left: 10px;
+}
 
 
 /* Responsive: Portrait tablets and up */
@@ -139,9 +154,9 @@ body {
   //border: 1px solid blue;
   background: linear-gradient(to bottom, #FF6699 0%, #FF99CC 100%);
   img {
-    margin-left: 15%;
-    margin-right: 15%;
-    width: 70%;
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 60%;
     height: 500px;
     position: relative;
     bottom: 48px;
@@ -149,6 +164,10 @@ body {
 }
 
 .mobilebanner {
+  visibility: hidden;
+}
+
+.logmein {
   visibility: hidden;
 }
 
@@ -161,6 +180,11 @@ body {
   .container {
     width: 100%;
     padding: 0px;
+  }
+
+  .topmenu {
+    width: 100%;
+    height: 35px;
   }
 
   .menubar {
@@ -216,13 +240,36 @@ body {
   visibility: hidden;
 }
 
+.logmein {
+  visibility: hidden;
 }
 
-@media screen and (max-width: 450px) {
+.navlogin {
+  list-style-type: none;
+  display: inline-block;
+  float: right;
+  position: relative;
+  top: 5px;
+  text-decoration: none;
+  margin-right: 5px;
+}
+
+.linktitle2 {
+  margin-left: 5px;
+}
+
+}
+
+@media screen and (max-width: 470px) {
 
   .container {
     width: 100%;
     padding: 0px;
+  }
+
+  .topmenu {
+    width: 100%;
+    height: 25px;
   }
 
   .menubar {
@@ -258,7 +305,7 @@ body {
   .dropdown-menu {
    //height: 130px;
    position: relative;
-   bottom: 90px;
+   bottom: 85px;
    li a {
     top: 0px;
     font-size: 16px;
@@ -281,4 +328,19 @@ body {
       bottom: 280px;
     }
   }
+
+  .logmein {
+    visibility: visible;
+    float: right;
+    position: relative;
+    bottom: 130px;
+    list-style-type: none;
+    margin-right: 10px;
+  }
+
+  .navlogin {
+    visibility: hidden;
+  }
+
+
 }
