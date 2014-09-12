@@ -352,9 +352,9 @@ body {
   }
 
   .logo {
-    visibility: hidden;
+    //visibility: hidden;
     img {
-      visibility: hidden;
+      display: none;
     }
   }
 
@@ -363,7 +363,7 @@ body {
     position: relative;
     a {
       position: relative;
-      bottom: 95px;
+      bottom: 85px;
       color: white;
     }
     a:hover {
@@ -372,7 +372,7 @@ body {
   }
 
   .navigationlinks {
-    visibility: hidden;
+    display: none;
   }
 
   .dropdown-menu {
@@ -388,7 +388,7 @@ body {
   }
 
   .bannerimage {
-    visibility: hidden;
+    display: none;
   }
 
   .mobilebanner {
@@ -398,7 +398,7 @@ body {
       margin-right: 20%;
       margin-left: 20%;
       position: relative;
-      bottom: 280px;
+      bottom: 80px;
     }
   }
 
@@ -406,7 +406,7 @@ body {
     visibility: visible;
     float: right;
     position: relative;
-    bottom: 130px;
+    bottom: 120px;
     list-style-type: none;
     margin-right: 10px;
   }
@@ -422,7 +422,7 @@ body {
   text-align: center;
   margin: 0 auto;
   position: relative;
-  bottom: 260px;
+  bottom: 50px;
   h3 {
     color: white;
     font-size: 30px;
